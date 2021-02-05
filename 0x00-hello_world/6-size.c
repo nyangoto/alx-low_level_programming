@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
-* main - entry point
-* @void: no arguments#include
-* Description: the program starts and ends here.
-* Return: value 0 to exit
+* main - This function prints the sizes of different types.
+* Return: This function returns 0.
 */
 int main(void)
 {
