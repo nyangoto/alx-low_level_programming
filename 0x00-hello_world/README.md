@@ -1,0 +1,1 @@
+This directory contains C and Shell scripts that are an introduction to the C programming language. 
