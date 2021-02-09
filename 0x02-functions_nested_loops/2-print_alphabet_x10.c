@@ -1,8 +1,7 @@
 #include "holberton.h"
 
 /**
-* main - This is the main function.
-* Description: This function prints out the alphabet ten times followed by a new line.
+* print_alphabet_x10 - function prints alphabet 10 times.
 * Return: function returns null
 */
 void print_alphabet_x10(void)

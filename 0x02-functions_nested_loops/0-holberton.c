@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
-* main - prints out Holberton followed by a new line
-* Return; Function returns 0.
+* main - the function starts here
+* Description - prints out Holberton followed by a new line
+* Return: Function returns 0.
 */
 int main(void)
 {
