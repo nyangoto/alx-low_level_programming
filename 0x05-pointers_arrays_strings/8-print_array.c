@@ -13,7 +13,7 @@ int i;
 
 for (i = 0; i < n; i++)
 {
-printf("%d", a[i]);
+printf("%p", a[i]);
 
 if (i == n - 1)
 {
