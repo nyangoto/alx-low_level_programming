@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
 * print_array - takes two arguments and
