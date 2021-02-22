@@ -12,19 +12,19 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j, match = 0;
+	int i, j, match = 0;
 
-	i = o;
+	i = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] != 32)
+		if (s[i] != ' ')
 		{
 			j = 0;
 			while (accept[j] != '\0')
 			{
 				if (accept[j] == s[i])
 				{
-					match = match + 1;
+					match = match++;
 				}
 				j++;
 			}

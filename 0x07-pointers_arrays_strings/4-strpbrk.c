@@ -1,10 +1,10 @@
 #include "holberton.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  *_strpbrk - searches a string for any of a set of bytes.
  *it locates the first occurence in the string s of any of
  *the bytes in the string accept.
- *@s: pointer ro string
+ *@s: pointer to string
  *@accept: pointer to string to be matched.
 *
  *Return: pointer to byte in s that matches one of the bytes
@@ -12,17 +12,18 @@
 */
 char *_strpbrk(char *s, char *accept)
 {
-	char *p;
-	int i, j;
+int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		for (j = 0; accept[j]; j++)
-		{
-			if (accept[j] == s[i])
-				p = &s[i];
-			break;
-		}
-	}
-	return (p);
+while (*s)
+{
+for (i = 0; accept[i]; i++)
+{
+if (*s == accept[i])
+{
+return (s);
+}
+}
+s++;
+}
+return ('\0');
 }
