@@ -1,8 +1,5 @@
 !<arch>
-holberton.h/    1614612165  0     0     100644  700       `
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
+holder/         1614613144  0     0     100644  651       `
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -23,8 +20,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
-#endif
-3-islower.o/    1614612614  0     0     100644  11        `
-lower case
 
