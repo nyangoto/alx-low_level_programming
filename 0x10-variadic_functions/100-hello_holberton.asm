@@ -1,15 +1,14 @@
-section .data
-	str: db "Hello, Holberton", 10, 0
-
-section .text
 global _start
-_start:
-	MOV RAX, 1
-	MOV RDI, 1
-	MOV RSI, str
-	MOV RDX, 17
+
+	section .text
+_start: mov	rax, 1
+	mov	rdi, 1
+	mov	rsi, message
+	mov	rdx, 17
+	syscall
+	mov	rax, 60
+	xor	rdi, rdi
 	syscall
 
-	MOV RAX, 60
-	MOV RDI, 0
-	syscall
+	section .data
+message: db	"Hello, Holberton", 10
