@@ -1,10 +1,8 @@
 section .data
-
-	text db "Hello, Holberton", 10
+	text db "Hello, Holberton",10
 
 section .text
-
-global _start
+	global _start
 _start:
 	mov rax, 1
 	mov rdi, 1
