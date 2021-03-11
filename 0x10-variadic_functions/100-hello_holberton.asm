@@ -1,3 +1,9 @@
+;--------------------------------------------------------
+; writes Hello, Holberton to stdout using system calls
+; on x64 Linux
+; To assemble and run
+; nasm -f elf64 [filename] 
+;--------------------------------------------------------
 global _start
 
 	section .text
@@ -12,3 +18,4 @@ _start: mov	rax, 1
 
 	section .data
 message: db	"Hello, Holberton", 10
+end:
