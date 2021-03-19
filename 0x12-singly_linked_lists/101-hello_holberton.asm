@@ -1,28 +1,21 @@
-;-------------------------------------------------------------------------------
-;
-; An x64 assembly language program that prints out 'Hello,
-; Holberton, followed by a new line.
-; Compiled using nasm and gcc as follows
-; nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
-;
-;-------------------------------------------------------------------------------
+	extern printf
 
-section .data
-format db "%s", 10, 0
-message db "Hello, Holberton", 0
+	section .data
+msg:	db "Hello, Holberton",0
+fmt:	db "%s", 10, 0
 
-section .text
-extern printf ;C function to be called.
-global main ;main function
+	section .text
 
+	global main
 main:
-	push rbp
-	mov rdi, format
-	mov rsi, mesage
-	mov rax, 0
-	call printf
+	push	rbp
 
-	pop rbp
+	mov	rdi,fmt
+	mov	rsi,msg
+	mov	rax,0
+	call	printf
 
-	mov rax, 0
+	pop	rbp
+
+	mov	rax,0
 	ret
