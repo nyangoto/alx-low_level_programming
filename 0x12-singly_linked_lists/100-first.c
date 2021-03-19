@@ -1,6 +1,6 @@
 #include "lists.h"
 
-void first(void) __attribute__ ((constructor));
+void print_before(void) __attribute__ ((constructor));
 
 /**
   * print_before - prints passed string
