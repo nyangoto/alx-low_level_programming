@@ -1,5 +1,7 @@
 #include "lists.h"
 
+void first(void) __attribute__ ((constructor));
+
 /**
   * print_before - prints passed string
   * before main function.
