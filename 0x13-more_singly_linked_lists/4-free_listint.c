@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * freee_listint - frees a lisint -t lsit.
+  * free_listint - frees a lisint -t lsit.
   * @head: pointer to first elemet
   *
   * Return: VOID

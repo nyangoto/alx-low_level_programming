@@ -10,7 +10,6 @@ size_t print_listint(const listint_t *h)
 	/* i is counter var */
 	int i;
 	i = 0;
-
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);

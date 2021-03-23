@@ -12,7 +12,7 @@
   *Description: singly linked list node structure & definition.
 */
 
-  typedef struct listint_s
+typedef struct listint_s
 {
 	int n;
 	struct lint_s *next;

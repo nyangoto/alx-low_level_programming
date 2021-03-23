@@ -1,4 +1,4 @@
-#include "lists.h"
+iinclude "lists.h"
 /**
   * add_node - adds new nod at beginning of listint_t list.
   * @head: pointer to pointer of first element.
@@ -11,7 +11,7 @@ listint_t *add_node(listint_t **head, const int n)
 	listint_t *temp;
 
 	temp = malloc(sizeof(listint_t));
-	if (temp = NULL)
+	if (temp == NULL)
 		return (NULL);
 
 	temp->next = *head;
