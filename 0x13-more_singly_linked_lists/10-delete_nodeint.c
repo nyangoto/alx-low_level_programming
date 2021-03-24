@@ -7,7 +7,7 @@
   *
   * Return: 1 on success, -1 on failure
   */
-int delete_nodeint_at_index(listint_t **head, insigned int index)
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	unsigned int count = 0;
 	listint_t *temp = *head, *next_node;
@@ -27,7 +27,7 @@ int delete_nodeint_at_index(listint_t **head, insigned int index)
 		temp = temp->next;
 		count++;
 		if (!(temp || !(temp->next))
-				return (-1);
+			return (-1);
 	}
 
 	next_node = temp->next->next;
