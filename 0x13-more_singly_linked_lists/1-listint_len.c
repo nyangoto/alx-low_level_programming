@@ -8,7 +8,7 @@
   */
 size_t listint_len(const listint_t *h)
 {
-	// i is counter variable
+	/* i is counter variable */
 	size_t i = 0;
 
 	while (h)

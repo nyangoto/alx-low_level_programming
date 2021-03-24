@@ -5,7 +5,7 @@
   *
   * Return: number of elemnts in lst
   */
-size_t list_int_len(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	/* i  is coiunter var */
 	int i;
@@ -29,30 +29,30 @@ size_t list_int_len(const listint_t *h)
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *current;
-	unsigned int i;
+	unsigned int count;
 
 	current = head;
-	count = listint_len(head);
+	count = listint(head);
 
 	if (current == NULL)
-		i++;
+		count++;
 
-	if (i <= index)
+	if (count <= index)
 	{
 		return (NULL);
 	}
 	else
 	{
-		i = 0;
+		count = 0;
 		while (current != NULL)
 		{
-			if (i == index)
+			if (count == index)
 			{
 				break;
 			}
 			else
 			{
-				i++;
+				count++;
 				current = current->next;
 			}
 		}
