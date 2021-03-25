@@ -25,7 +25,7 @@ unsigned int nBits(unsigned int x)
   * @n: number
   * @m: number.
   *
-  * Description: number of bits needed to flip to get from 
+  * Description: number of bits needed to flip to get from
   * one number to another.
   * Reeturn: number of bits.
   */
