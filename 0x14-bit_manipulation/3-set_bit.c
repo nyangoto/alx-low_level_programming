@@ -15,7 +15,7 @@ int getp(int x, int y)
 	if (y == 1)
 		return (x);
 
-	return (x * getp(x,y - 1));
+	return (x * getp(x, y - 1));
 }
 
 /**
