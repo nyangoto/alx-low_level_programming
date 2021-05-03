@@ -31,7 +31,7 @@ int print_sign(int n);
 /** 
 * _abs - computes absolute value of integer
 */
-int _abs(int);
+int _abs(int n);
 
 /**
 * print_last_digit - returns last digit of a number
