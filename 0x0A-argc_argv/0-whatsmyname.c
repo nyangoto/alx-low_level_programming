@@ -2,7 +2,7 @@
 /**
 * main - prints program name
 * @argc: number of programs in the command line.
-* @argev: stores number of arguments passed in the command line.
+* @argv: stores number of arguments passed in the command line.
 *
 * Return: 0 on sucess
 */
